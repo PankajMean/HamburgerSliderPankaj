@@ -1,6 +1,6 @@
 /* Created By Pankaj Dewangan on 14-12-2015 for Hamburger sliding functionality */
 .pd-menu {
-  transition: all 0.4s ease;
+  /*transition: all 0.4s ease;*/
   position: fixed; 
   border: 2px solid blue;
   width: 200px;
@@ -10,7 +10,7 @@
 }
 	   
 .pd-content {  
-    transition: 'all 0.3s ease';
+    /*transition: 'all 0.3s ease';*/
    height:100%;
     position: absolute;
     right: 0;

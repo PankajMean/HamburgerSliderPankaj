@@ -1,0 +1,31 @@
+/* Created By Pankaj Dewangan on 14-12-2015 for Hamburger sliding functionality */
+.pd-menu {
+  transition: all 0.4s ease;
+  position: fixed; 
+  border: 2px solid blue;
+  width: 200px;
+  float: left;
+  display: none;
+  height: 100%;
+}
+	   
+.pd-content {  
+    transition: 'all 0.3s ease';
+   height:100%;
+    position: absolute;
+    right: 0;
+    z-index:9999999;
+}
+    
+.pd-toggle-button {
+    margin-left: -35px     
+}
+
+.pd-description {
+    border-radius: 25px; 
+    background: #73AD21; 
+    padding: 10px; 
+    width: 40%; 
+    float:left;        
+}
+
